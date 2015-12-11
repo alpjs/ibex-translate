@@ -1,0 +1,29 @@
+{
+  "name": "ibex-translate",
+  "version": "1.0.0",
+  "description": "translate in ibex framework",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "make test",
+    "lint": "make lint",
+    "build": "make build",
+    "postpublish": "make post-publish",
+    "preversion": "make pre-version",
+    "version": "make version",
+    "watch": "make watch"
+  },
+  "repository": "alpjs/ibex-translate",
+  "keywords": [
+    "alp",
+    "ibex"
+  ],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpjs/ibex-translate/issues"
+  },
+  "homepage": "https://github.com/alpjs/ibex-translate#readme",
+  "devDependencies": {
+    "springbokjs-library": "^12.3.0"
+  }
+}
